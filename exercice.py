@@ -11,7 +11,7 @@ def get_bill(name, data):
     #calculer les taxes et totalàà
 
     
-    #rotouer 
+    #rotouer la fac
 	return ""
 
 
