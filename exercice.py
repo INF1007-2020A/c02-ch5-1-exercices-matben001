@@ -39,7 +39,8 @@ def get_triangle(num_rows):
     TRIANGLE_CHAR = "A"
     #Calculer la largeur
 
-    #Construire première et dernière ligne
+    #Construire première et dernière ligne(cordure pleine)
+    
 	return ""
 
 
