@@ -8,7 +8,7 @@ def get_bill(name, data):
 	INDEX_QUANTITY = 1
 	INDEX_PRICE = 2
     calculer le sous total
-    cal
+    #calculer 
 	return ""
 
 
