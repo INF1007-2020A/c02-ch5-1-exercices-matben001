@@ -41,6 +41,8 @@ def get_triangle(num_rows):
 
     #Construire première et dernière ligne(cordure pleine)
     
+    #Afficher le triangle
+
 	return ""
 
 
