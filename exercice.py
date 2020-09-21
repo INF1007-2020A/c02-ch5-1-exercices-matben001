@@ -35,6 +35,7 @@ def format_number(number, num_decimal_digits):
 	return ""
 
 def get_triangle(num_rows):
+    
 	return ""
 
 
