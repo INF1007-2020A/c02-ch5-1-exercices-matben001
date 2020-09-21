@@ -29,7 +29,7 @@ def format_number(number, num_decimal_digits):
     decimal_part = abs(number) % 1
     whole_part = int(number)
     #Formater la parties décimal
-    decimal_str = f"{decimal_part :.{num_decimal_digits}}"
+    decimal_str = f"{decimal_part :.{num_decimal_digits}f}"
     #Formater la partie entières
     #Concaténer les deux parties
 	return ""
