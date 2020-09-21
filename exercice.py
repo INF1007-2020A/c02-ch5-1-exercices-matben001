@@ -17,6 +17,7 @@ def get_bill(name, data):
     total=sum+tax
     
     #rotouer la facture fromatée
+    result = name
 	return 
 
 
