@@ -11,7 +11,7 @@ def get_bill(name, data):
     sum =0
     for item in data:
         sum += item[]
-    #calculer les taxes et totalàà
+    #calculer les taxes et total
 
     
     #rotouer la facture fromatée
