@@ -4,10 +4,10 @@
 import random
 
 def get_bill(name, data):
-	INDEX_NAME = 0
-	INDEX_QUANTITY = 1
-	INDEX_PRICE = 2
-    
+    INDEX_NAME = 0
+    INDEX_QUANTITY = 1
+    INDEX_PRICE = 2
+
     TAX_RATE = 0.15    #calculer le sous total
     sum =0
     for item in data:
@@ -15,11 +15,11 @@ def get_bill(name, data):
     #calculer les taxes et total
     taxes = TAX_RATE * sum 
     total=sum+tax
-    
+
     #rotouer la facture fromatée
     result = name
     result += "\n"+f"SOUS-total {sum : >10.2f}"
-	return result
+    return result
 
 
 def format_number(number, num_decimal_digits):
