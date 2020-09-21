@@ -18,7 +18,7 @@ def get_bill(name, data):
     
     #rotouer la facture fromatée
     result = name
-    result += "\n"+f"SOUS-total {sum : }"
+    result += "\n"+f"SOUS-total {sum : >10}"
 	return 
 
 
