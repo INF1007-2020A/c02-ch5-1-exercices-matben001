@@ -40,9 +40,9 @@ def get_triangle(num_rows):
     #Calculer la largeur
 
     #Construire première et dernière ligne(cordure pleine)
-    
-    #Afficher le triangle
 
+    #Afficher le triangle
+    #
 	return ""
 
 
