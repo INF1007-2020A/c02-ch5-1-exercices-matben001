@@ -45,6 +45,7 @@ def get_triangle(num_rows):
     i=0
     while i>numrows:
         i+=1
+        print(f)
 	return ""
 
 
