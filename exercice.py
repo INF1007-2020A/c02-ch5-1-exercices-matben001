@@ -19,7 +19,7 @@ def get_bill(name, data):
     #rotouer la facture fromatée
     result = name
     result += "\n"+f"SOUS-total {sum : >10.2f}"
-	return 
+	return result
 
 
 def format_number(number, num_decimal_digits):
