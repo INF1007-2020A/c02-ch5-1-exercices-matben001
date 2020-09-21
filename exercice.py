@@ -8,7 +8,9 @@ def get_bill(name, data):
 	INDEX_QUANTITY = 1
 	INDEX_PRICE = 2
     #calculer le sous total
-    for item in data
+    sum,
+    for item in data:
+
     #calculer les taxes et totalàà
 
     
