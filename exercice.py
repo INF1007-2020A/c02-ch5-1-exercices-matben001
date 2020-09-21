@@ -27,7 +27,7 @@ def get_bill(name, data):
 def format_number(number, num_decimal_digits):
     #Séparer les parties entières et décimal
     decimal_part = abs(number) % 1
-    whole
+    whole_part = int(number)
     #Formater la parties décimal
     #Formater la partie entières
     #Concaténer les deux parties
