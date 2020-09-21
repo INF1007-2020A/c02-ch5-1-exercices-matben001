@@ -13,7 +13,7 @@ def get_bill(name, data):
 
     
     #rotouer la facture fromatée
-	return ""é
+	return ""
 
 
 def format_number(number, num_decimal_digits):
