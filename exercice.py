@@ -42,7 +42,7 @@ def get_triangle(num_rows):
     #Construire première et dernière ligne(cordure pleine)
 
     #Afficher le triangle
-    
+    i=0
     while i>numrows:
         i+=1
 	return ""
