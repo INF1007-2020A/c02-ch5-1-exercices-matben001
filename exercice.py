@@ -16,7 +16,7 @@ def get_bill(name, data):
     taxes = TAX_RATE * sum 
     total=sum+taxes
 
-    #rotouer la facture fromatée
+    #retourner la facture formatée
     result = name
     result += "\n"+f"SOUS-total {sum : >10.2f} $"
     result += "\n"+f"TAXES      {taxes : >10.2f} $"
