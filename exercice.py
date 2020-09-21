@@ -7,12 +7,13 @@ def get_bill(name, data):
 	INDEX_NAME = 0
 	INDEX_QUANTITY = 1
 	INDEX_PRICE = 2
+    TAX_
     #calculer le sous total
     sum =0
     for item in data:
         sum += item[INDEX_QUANTITY]*item[INDEX_PRICE]
     #calculer les taxes et total
-    taxes = TAX_RATE
+    taxes = TAX_RATE *sum
     
     #rotouer la facture fromatée
 	return 
