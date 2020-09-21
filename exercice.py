@@ -28,7 +28,7 @@ def format_number(number, num_decimal_digits):
     #Séparer les parties entières et décimal
     #Formater la parties décimal
     #Formater la partie entières
-    #Con
+    #Conca
 	return ""
 
 def get_triangle(num_rows):
