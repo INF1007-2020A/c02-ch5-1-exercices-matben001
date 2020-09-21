@@ -36,7 +36,7 @@ def format_number(number, num_decimal_digits):
 
 def get_triangle(num_rows):
     BORDER_CHAR = "+"
-    TRIANGLE
+    TRIANGLE_CHAR = ""
 	return ""
 
 
