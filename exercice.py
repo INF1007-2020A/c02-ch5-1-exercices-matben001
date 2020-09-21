@@ -14,11 +14,11 @@ def get_bill(name, data):
         sum += item[INDEX_QUANTITY]*item[INDEX_PRICE]
     #calculer les taxes et total
     taxes = TAX_RATE * sum 
-    total=sum+tax
+    total=sum+taxes
 
     #rotouer la facture fromatée
     result = name
-    result += "\n"+f"SOUS-total {sum : >10.2f}"
+    result += "\n"+f"SOUS-total {sum : >10.2f}$"
     return result
 
 
