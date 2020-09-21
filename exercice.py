@@ -10,7 +10,7 @@ def get_bill(name, data):
     #calculer le sous total
     sum =0
     for item in data:
-        sum += item[INDEX_QUANTITY]*item[Inde]
+        sum += item[INDEX_QUANTITY]*item[INDEX_PRICE]
     #calculer les taxes et total
 
     
