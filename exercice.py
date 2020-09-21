@@ -26,7 +26,8 @@ def get_bill(name, data):
 
 def format_number(number, num_decimal_digits):
     #Séparer les parties entières et décimal
-    #Formater la parties déc
+    #Formater la parties décimal
+    
 	return ""
 
 def get_triangle(num_rows):
